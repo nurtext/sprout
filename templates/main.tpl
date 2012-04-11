@@ -10,6 +10,5 @@
 
 {* Include a basic template logic, just to show you how things work *}
 {include file=#headerFile#}
-{*debug*}
 {include file=$viewFile}
 {include file=#footerFile#}

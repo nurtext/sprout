@@ -3,10 +3,10 @@
 require_once('libs/Smarty.class.php');
 require_once('libs/Router.class.php');
 
-// Instance singleton router class
+// Instantiate singleton router class
 $router = Router::getInstance();
 
-// Set options for routing
+// Instantiate Smarty
 $router->setSmarty(new Smarty());
 
 // These calls are optional and just in case you want to have 
@@ -19,5 +19,5 @@ $router->setSmarty(new Smarty());
 // the .htaccess if you're using mod_rewrite!
 //$router->setTriggerVariable('foo');
 
-// Let the routing begin
+// Let the routing begin...
 $router->doRouting();
